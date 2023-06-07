@@ -21,7 +21,7 @@ const Navigation = (props) => {
         )}
         {auth.isLoggedIn && (
           <li>
-            <button onClick={props.onLogout}>Logout</button>
+            <button onClick={auth.onLogout}>Logout</button>
           </li>
         )}
       </ul>
